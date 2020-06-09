@@ -55,7 +55,9 @@ return [
         'driver' => [
             'circlical_entities' => [
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
-                'paths' => realpath(__DIR__ . '/../src/CirclicalUser/Entity'),
+                'paths' => [
+                    realpath(__DIR__ . '/../src/CirclicalUser/Entity'),
+                ],
             ],
 
             'orm_default' => [
