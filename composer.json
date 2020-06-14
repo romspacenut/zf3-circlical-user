@@ -30,7 +30,7 @@
     "zendframework/zend-view": "^2.8",
     "zendframework/zend-http": "^2.5",
     "doctrine/doctrine-orm-module": "^3.0.3",
-    "doctrine/doctrine-module": "^3.0.1",
+    "doctrine/doctrine-module": "^4.0.2",
     "doctrine/orm": "^2.7.2",
     "paragonie/halite": "^3.3"
   },
